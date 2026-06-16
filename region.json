@@ -4,7 +4,7 @@
       "id": "channel-governor",
       "name": "Алексей Русских",
       "description": "Официальный канал Губернатора Ульяновской области",
-      "icon": "governor.png",
+      "icon": "governor.jpg",
       "type": "channel",
       "owner": "Правительство Ульяновской области",
       "link": "https://max.ru/Russkih_Aleksey",
@@ -97,7 +97,17 @@
       "owner": "Портал государственных услуг Российской Федерации",
       "link": "https://gosuslugi.ru",
       "federal": true
-    }
+    },
+	{
+	  "id": "channel-boldakin",
+	  "name": "Александр Болдакин",
+	  "description": "Глава города Ульяновска",
+	  "icon": "channel-boldakin.jpg",
+	  "type": "channel",
+	  "owner": "Мэрия города Ульяновска",
+	  "link": "https://max.ru/id7303014573_gos",
+	  "tags": ["новости", "город", "Ульяновск"]
+	}
   ],
   "categories": [
     {
