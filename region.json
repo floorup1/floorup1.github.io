@@ -1,0 +1,173 @@
+{
+  "channels": [
+    {
+      "id": "channel-governor",
+      "name": "Алексей Русских",
+      "description": "Официальный канал Губернатора Ульяновской области",
+      "icon": "governor.png",
+      "type": "channel",
+      "owner": "Правительство Ульяновской области",
+      "link": "https://max.ru/Russkih_Aleksey",
+      "tags": ["губернатор", "новости", "власть"],
+      "popular": true
+    },
+    {
+      "id": "channel-government",
+      "name": "Правительство Ульяновской области",
+      "description": "Официальный Правительства Ульяновской области",
+      "icon": "government.jpg",
+      "type": "channel",
+      "owner": "Правительство Ульяновской области",
+      "link": "https://max.ru/ulgov",
+      "tags": ["правительство", "новости", "власть"],
+      "popular": true
+    },
+    {
+      "id": "channel-mfc",
+      "name": "МФЦ Ульяновской области",
+      "description": "Многофункциональный центр предоставления государственных услуг",
+      "icon": "https://mfc.ulgov.ru/bitrix/templates/mydocs-main/images/mydoc_logo.png",
+      "type": "channel",
+      "owner": "МФЦ Ульяновской области",
+      "link": "https://max.ru/mfc_ulyanovsk",
+      "category_ids": ["social", "housing"]
+    },
+    {
+      "id": "channel-ulpravda",
+      "name": "ULPRAVDA.RU",
+      "description": "Главные новости Ульяновской области в одном месте",
+      "icon": "ulpravda.jpg",
+      "type": "channel",
+      "owner": "Ульяновская правда",
+      "link": "https://max.ru/ulpravda73",
+      "tags": ["новости", "регион"]
+    },
+    {
+      "id": "chatbot-mfc",
+      "name": "Чат-бот МФЦ Ульяновской области",
+      "description": "Официальный чат-бот МФЦ Ульяновской области",
+      "icon": "chatbot-mfc.jpg",
+      "type": "chatbot",
+      "owner": "МФЦ Ульяновской области",
+      "link": "https://max.ru/mfc_ulyanovsk_max_bot"
+    },
+    {
+      "id": "channel-minimushestva",
+      "name": "Министерство имущественных отношений, градостроительной деятельности и цифрового развития Ульяновской области",
+      "description": "Министерство имущественных отношений, градостроительной деятельности и цифрового развития Ульяновской области",
+      "icon": "minimushestva.jpg",
+      "type": "channel",
+      "owner": "Министерство имущественных отношений, градостроительной деятельности и цифрового развития Ульяновской области",
+      "link": "https://max.ru/id7325133662_gos"
+    },
+    {
+      "id": "site-ulmincult",
+      "name": "Министерство искусства и культурной политики Ульяновской области",
+      "description": "Министерство искусства и культурной политики Ульяновской области",
+      "icon": "ulmincult.png",
+      "type": "site",
+      "owner": "Министерство искусства и культурной политики Ульяновской области",
+      "link": "https://ulmincult.ru/"
+    },
+    {
+      "id": "site-ulyanovsk",
+      "name": "Администрация города Ульяновска",
+      "description": "Администрация города Ульяновска",
+      "icon": "ulyanovsk.jpg",
+      "type": "site",
+      "owner": "Администрация города Ульяновска",
+      "link": "https://ulmeria.gosuslugi.ru/"
+    },
+    {
+      "id": "channel-volodin",
+      "name": "Вячеслав Володин",
+      "description": "Председатель Государственной Думы ФС РФ",
+      "icon": "channel-volodin.jpg",
+      "type": "channel",
+      "owner": "Государственная Дума ФС РФ",
+      "link": "https://max.ru/vv_volodin",
+      "federal": true
+    },
+    {
+      "id": "site-gosuslugi",
+      "name": "Госуслуги",
+      "description": "Портал государственных услуг Российской Федерации",
+      "icon": "site-gosuslugi.png",
+      "type": "site",
+      "owner": "Портал государственных услуг Российской Федерации",
+      "link": "https://gosuslugi.ru",
+      "federal": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "housing",
+      "name": "Дом и ЖКХ",
+      "icon": "housing.png",
+      "show_on_main": true
+    },
+    {
+      "id": "family",
+      "name": "Семья и дети",
+      "icon": "family.png",
+      "show_on_main": true
+    },
+    {
+      "id": "transport",
+      "name": "Транспорт",
+      "icon": "transport.png",
+      "show_on_main": true
+    },
+    { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
+    { "id": "culture", "name": "Культура", "icon": "culture.png", "show_on_main": true },
+    { "id": "education", "name": "Образование" },
+    { "id": "social", "name": "Соцподдержка" },
+    { "id": "ecology", "name": "Экология" },
+    { "id": "incidents", "name": "Происшествия" },
+    { "id": "business", "name": "Бизнес" },
+    { "id": "employment", "name": "Работа и занятость" },
+    { "id": "sport", "name": "Спорт" },
+    { "id": "tourism", "name": "Туризм" }
+  ],
+  "services": [
+    {
+      "id": "service-chatbot-mfc",
+      "name": "Чат-бот МФЦ Ульяновской области",
+      "description": "Официальный чат-бот МФЦ Ульяновской области",
+      "icon": "chatbot-mfc.jpg",
+      "type": "chatbot",
+      "owner": "МФЦ Ульяновской области",
+      "link": "https://max.ru/mfc_ulyanovsk_max_bot",
+      "tags": ["МФЦ", "чат-бот", "госуслуги"],
+      "category_ids": ["housing", "family"],
+      "popular": true
+    },
+    {
+      "id": "test-gosuslugi",
+      "name": "Госуслуги",
+      "description": "Портал государственных услуг Российской Федерации",
+      "icon": "gosuslugi.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://www.gosuslugi.ru",
+      "tags": ["госуслуги", "документы"],
+      "category_ids": ["housing"],
+      "federal": true
+    }
+  ],
+  "support": {
+    "chatbot": null,
+    "operator": null,
+    "techSupport": null
+  },
+  "analytics": {
+    "mytracker": {
+      "enabled": false,
+      "trackerId": ""
+    },
+    "yandexMetrika": {
+      "enabled": false,
+      "counterId": ""
+    }
+  }
+}
