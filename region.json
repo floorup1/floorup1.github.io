@@ -163,7 +163,42 @@
       "tags": ["госуслуги", "документы"],
       "category_ids": ["housing"],
       "federal": true
-    }
+    },
+	{
+	  "id": "service-infmed-bot",
+	  "name": "Здравоохранение Ульяновской области",
+	  "description": "Данный бот позволяет записаться к врачу в медицинскую организацию по месту прикрепления",
+	  "icon": "service-infmed-bot.jpg",
+	  "type": "chatbot",
+	  "owner": "Министерство здравоохранения Ульяновской области",
+	  "link": "https://max.ru/infmed_uln_bot",
+	  "tags": ["запись", "врач", "запись ко врачу", "минздрав"],
+	  "category_ids": ["health"],
+	  "popular": true
+	},
+	{
+	  "id": "service-minsoc73bot",
+      "name": "Чат-бот Министерства социального развития Ульяновской области",
+	  "description": "Справочник мер социальной поддержки и льгот для семей Ульяновской области",
+	  "icon": "service-minsoc73bot.jpg",
+	  "type": "chatbot",
+	  "owner": "Министерство социального развития Ульяновской области",
+	  "link": "https://max.ru/minsoc73bot",
+	  "tags": ["социальная", "помощь", "соцподдержка", "льготы"],
+	  "category_ids": ["social"],
+	  "popular": false
+	},
+	{
+	  "id": "service-kompas-obrazovaniya73-bot",
+      "name": "КомпасОбразования73",
+	  "description": "Данный чат-бот предназначен для предоставления актуальной и полной информации о различных услугах в сфере образования, предлагаемых учреждениями Ульяновской области",
+	  "icon": "service-kompas-obrazovaniya73-bot.jpg",
+	  "type": "chatbot",
+	  "owner": "Министерство просвещения и воспитания Ульяновской области",
+	  "link": "https://max.ru/kompas_obrazovaniya73_bot",
+	  "category_ids": ["education"],
+	  "popular": false
+	}
   ],
   "support": {
     "chatbot": null,
