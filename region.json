@@ -211,8 +211,8 @@
       "trackerId": ""
     },
     "yandexMetrika": {
-      "enabled": false,
-      "counterId": ""
+      "enabled": true,
+      "counterId": "109909025"
     }
   }
 }
